@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counting 1 to 100</title>
+    <script>
+      let n = Number(prompt("Enter a Number"));
+      document.write(`<h3>Table of ${n}</h3>`);
+      document.write("<table border='2'>");
+      let i = 1;
+      let c=1;
+     for(;i<=n;i++) {
+        document.write(`<tr><td>${i}</td></tr>`);
+        c++;
+        if(i===11&& n===11)
+        break;
+      }
+      document.write(`${c}`);
+      document.write("</table>");
+    </script>
+  </head>
+  <body></body>
+</html>

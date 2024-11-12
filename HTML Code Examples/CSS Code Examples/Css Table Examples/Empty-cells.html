@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling empty cells</title> 
+    <style type="text/css">
+        table,
+        th,td{
+            border: 1px solid gray;
+        }
+        table.empty-show{
+            empty-cells: show;
+        }
+        table.empty-hide{
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table with Empty cells</h2>
+    <table class="empty-show">
+        <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>Javascript</th>
+        </tr>
+        <tr>
+            <td>HTM in 24 hours</td>
+            <td>Effective CSS</td>
+            <td>Professional Javascript</td>
+        </tr>
+        <tr>
+            <td>HTML Beginners Guide</td>
+            <td>Smashing CSS</td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>Table with Hidden Empty cells</h2>
+    <table class="empty-hide">
+        <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>Javascript</th>
+        </tr>
+        <tr>
+            <td>HTM in 24 hours</td>
+            <td>Effective CSS</td>
+            <td>Professional Javascript</td>
+        </tr>
+        <tr>
+            <td>HTML Beginners Guide</td>
+            <td>Smashing CSS</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

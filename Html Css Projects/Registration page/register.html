@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Tangerine&display=swap" rel="stylesheet" />
+    <link href="mystyles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1> Register New Account</h1>
+    <form action="index.html" method="POST" autocomplete="off">
+        <div id="container">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </div>
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Your username">
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Your password">
+            </div>
+            <div class="input-group">
+                <label>Confirm Password</label>
+                <input type="password" name="confirm_password" placeholder="Retype password">
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" required>
+                <label>I agree to have read the <a href="#">terms of service</a></label>
+            </div>
+            <div class="button-group">
+                <input id="register" type="submit" name="submit" value="Register">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

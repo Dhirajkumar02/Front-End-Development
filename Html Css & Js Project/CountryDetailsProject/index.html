@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Country Details</title>
+		<script src="app.js"></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="container">
+			<h1>The Country Details App</h1>
+			<input
+				type="button"
+				value="Load Countries"
+				onclick="loadCountries()"
+			/><br />
+			<select id="countries" onchange="showDetails()"></select>
+			<br /><br />
+			<div id="countrydetails"></div>
+		</div>
+	</body>
+</html>

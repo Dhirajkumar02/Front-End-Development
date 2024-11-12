@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add New Department</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body style="background-color: #a6a9f5">
+    <h1 style="text-align: center; color: aliceblue">The Royal Hotel</h1>
+    <hr width="50%" />
+    <h3 style="color: blue; text-align: center">Register New Department</h3>
+    <form action="deptList.html" method="POST">
+      <br />
+      <table
+        border="0"
+        cellpadding="4"
+        cellspacing="4"
+        align="center"
+        width="50%"
+      >
+        <tbody>
+          <tr>
+            <td>Department Name</td>
+            <td>:</td>
+            <td><input type="text" name="deptName" /></td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td><input type="password" name="deptAddress" /></td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>:</td>
+            <td><input type="text" name="deptDesc" /></td>
+          </tr>
+        </tbody>
+
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+          <td><input type="reset" value="Reset" /></td>
+          <td>
+            <a href="adminHomePage.html"
+              ><input type="button" value="Back to Home"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

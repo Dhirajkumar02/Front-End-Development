@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>setInterval()/clearInterval() Demo</title>
+		<script>
+			let id;
+			function showDateTime(){
+				let x=new Date();
+				console.log(x);
+			}
+			function startTimer(){
+				console.log("Timer about to start in 1 sec");
+				id=setInterval(showDateTime,1000);
+				
+			}
+			function stopTimer(){
+				clearInterval(id);
+				console.log("Timer stopped");
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="button" onclick="startTimer()" value="start" />
+		<input type="button" onclick="stopTimer()" value="stop" />
+	</body>
+</html>

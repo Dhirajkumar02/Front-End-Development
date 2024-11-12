@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag Demo</title>
+</head>
+<body>
+    <b>Your language of choice:</b>
+    <form action="myfavorite.py">
+    <select name="lang" multiple size="5">
+        <optgroup label="Server side language:">
+            <option>PHP</option>
+            <option>JSP</option>
+            <option selected>Django</option>
+    </optgroup>
+        <optgroup label="Client side language:">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>javascript</option>
+    </optgroup>
+    </select>
+    <input type="submit" value="Send"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>setInterval() Demo</title>
+		<script>
+			function showDateTime(){
+				let x=new Date();
+				console.log(x);
+			}
+			function startTimer(){
+					setInterval(showDateTime,1000);
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="button" onclick="startTimer()" value="start" />
+	</body>
+</html>

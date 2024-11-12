@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute-position Example</title>
+    <style>
+        #main{
+            border: 1px solid #000;
+            background: aqua;
+            padding: 20px;
+            width: 350px;
+            height: 300px;
+            margin-top: 200px;
+            position: relative;
+        }
+        #container{
+            border: 1px solid #000;
+            background:seagreen;
+            padding: 20px;
+            width: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px; 
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">I'm parent div.
+    <div id="container">I'm child div.</div>
+</div>
+
+</body>
+</html>

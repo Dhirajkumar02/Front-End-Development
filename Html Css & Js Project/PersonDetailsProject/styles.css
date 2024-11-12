@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+div#container {
+  background-color: hsl(187, 100%, 67%);
+  color: black;
+  text-align: center;
+  height: 100%;
+}
+input {
+  width: 250px;
+  height: 40px;
+  background-color: #0180fe;
+  color: azure;
+  border-radius: 3px;
+  font-size: 1.2em;
+}
+
+div#person {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}

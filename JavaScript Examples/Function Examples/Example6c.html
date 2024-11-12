@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Scope Demo 4</title>
+		<script>
+			function f1() {
+				var a = 10;
+				alert(`inside f1 a is ${a}`);
+			}
+
+			function f2() {
+				//alert(`inside f2 a is ${a}`);
+				alert(`inside f2 a is ${window.a}`);
+				//let actor={name:"Pankaj",surname:"Tripathi"};
+				//alert(actor.age);
+			}
+		</script>
+	</head>
+
+	<body>
+		<div style="text-align: center">
+			<input type="button" value="Call f1" onclick="f1()" /><br />
+			<input type="button" value="Call f2" onclick="f2()" /><br />
+		</div>
+	</body>
+</html>

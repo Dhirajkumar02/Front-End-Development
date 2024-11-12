@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin example hover effect</title>
+    <style>
+        #main{
+            width: 350px;
+            background: lightblue;
+            border: 1px solid black;
+            padding: 20px;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1em;
+        }
+        .container{
+            width: 300px;
+            background: lightblue;
+            border: 1px solid black;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1em;
+        }
+        div:hover#container1{
+            background-color: blue;
+        }
+        div:hover#container2{
+            background-color: yellow;
+        }
+        div:hover#main{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        Content
+          <div class="container" id="container1">
+            This is some text inside the div element and is lenghtly also.
+          </div>
+          <div class="container" id="container2">This is some text inside the div element and is lenghtly also.
+          </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd Using Switch</title>
+    <script>
+        let a, str;
+        a=prompt("Enter a number:");
+        a=Number(a);
+        switch(a%2){
+            case 0:
+                str="No is Even";
+                break;
+            case 1:
+                str="No is Odd";
+                break;
+            default:
+                str="You did not enter a number";
+        }
+        document.write(`${str}`);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

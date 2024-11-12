@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nested ternary operator</title>
+    <script>
+      let a, str;
+      a = prompt("Enter an integer");
+      isNaN(a) == true
+        ? (str = "You did not enter a number")
+        : Number(a) % 2 == 0
+        ? (str = "Number is Even")
+        : (str = "Number is Odd");
+      document.write(`${str}`);
+    </script>
+  </head>
+  <body></body>
+</html>

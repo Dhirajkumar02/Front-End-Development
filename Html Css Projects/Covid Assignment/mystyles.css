@@ -1,0 +1,143 @@
+body {
+    background-color: #0c374d;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main h1,
+  #main h2 {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  body,
+  input {
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: "Cardo", serif;
+  }
+  
+  table,
+  th,
+  td {
+    border: solid 2px white;
+    margin: 20px auto;
+    /* color: #BCA136; */
+    font-size: 1.2em;
+    border-collapse: collapse;
+  }
+  
+  table {
+    text-align: center;
+    /* position: sticky; */
+    top: 0px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #829356;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b5c686;
+    color: white;
+  }
+  
+  tr:nth-child(1) {
+    color: black;
+  }
+  
+  tr:nth-child(3) {
+    color: crimson;
+    font-weight: bold;
+    background-color: burlywood;
+  }
+  
+  #mycountry td {
+    background-color: #0d3d56;
+    color: white;
+  }
+  
+  #mycountry:hover {
+    color: white;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  #main {
+    width: 50%;
+    margin: 40px auto 140px;
+  }
+  
+  h1 {
+    font-weight: normal;
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h1,
+  h2,
+  p {
+    text-align: center;
+    color: #bca136;
+  }
+  
+  p {
+    font-size: 1.1em;
+    text-align: justify;
+  }
+  
+  #more {
+    margin: 80px auto 100px;
+    display: block;
+    font-size: 21px;
+    border: none;
+    padding: 14px 54px;
+    background-color: #bca136;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  #more:hover {
+    background-color: #c02f1d;
+    color: white;
+    /* font-size: 24px; */
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: brown;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    display: block;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: #fff;
+    background: lightsalmon;
+  }
+  
+  #innermenu {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  span {
+    color: white;
+    font-weight: bold;
+  }
+  

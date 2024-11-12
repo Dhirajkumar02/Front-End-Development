@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+    <title> Update Profile </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color:#a6a9f5;">
+    <h1 style="text-align:center;color: aliceblue;">The Royal Hotel</h1>
+    <hr width="50%">
+    <h3 style="color:blue;text-align:center;"> Edit your Details </h3>
+    <form action='adminHomePage.html' method='POST'>
+        <br>
+        <table width="50%" align="center" border="0" cellpadding="4" cellspacing="4">
+            <tbody>
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type='text' name='username'></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type='password' name='password'></td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td>:</td>
+                    <td><input type='text' name='fullName'></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type='text' name='email'></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>:</td>
+                    <td><input type='text' name='phoneNum'></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><input type='text' name='address'></td>
+                </tr>
+                <tr>
+                    <td>Hotel Branch</td>
+                    <td>:</td>
+                    <td><select name='Branch'>
+                            <option value='Terengganu'> Terengganu</option>
+                            <option value='Pahang'> Pahang</option>
+                            <option value='Kuala Lumpur'> Kuala Lumpur</option>
+                            <option value='Selangor'>Selangor</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Update"></td>
+                    <td><input type="reset" value="Delete"></td>
+                    <td><a href="adminHomePage.html"><input type="button" value="Back to Home"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

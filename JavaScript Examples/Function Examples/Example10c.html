@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Alternate Way Of Writing First Example</title>
+		<script>
+			let id;
+
+			function startTimer() {
+				console.log("Clock about to start!");
+				id = setInterval(function () {
+					let today = new Date();
+					console.log(today);
+				}, 1000);
+			}
+			function stopTimer() {
+				clearInterval(id);
+				console.log("Clock stopped!");
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="button" onclick="startTimer()" value="start" />
+		<input type="button" onclick="stopTimer()" value="stop" />
+	</body>
+</html>

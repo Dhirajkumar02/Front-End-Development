@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Demo 4</title>
+    <style>
+        #one{
+            height: 100px;
+            background: yellow;
+            width: 300px;
+            position: relative;
+            left: 80px;
+            top: 10px;
+            z-index: 2;
+        }
+        #two{
+            background: red;
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 35px;
+            top: -60px;
+            z-index: 1;
+        }
+        #three{
+            height: 100px;
+            background: blue;
+            width: 300px;
+            position: relative;
+            left: 120px;
+            top: -220px;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+</body>
+</html>

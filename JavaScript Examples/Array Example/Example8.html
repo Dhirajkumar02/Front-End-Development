@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator for billAmount</title>
+    <script>
+      let billAmounts = [];
+      let finalBills = [];
+      for (let i = 0; i < 4; i++) {
+        billAmounts[i] = Number(prompt("Enter bill Amount:"));
+      }
+      let finalAmount = 0;
+      for (let i = 0; i < billAmounts.length; i++) {
+        if (billAmounts[i] < 250) {
+          finalAmount = billAmounts[i] + (billAmounts[i] * 20)/100;
+        } else if (billAmounts[i] < 500) {
+          finalAmount = billAmounts[i] + (billAmounts[i] * 15)/100;
+        } else {
+          finalAmount = billAmounts[i] + (billAmounts[i] * 10)/100;
+        }
+        finalBills[i] = finalAmount;
+      }
+      document.write("Your Bill Details<br>");
+      document.write("<table border='2'>");
+      document.write("<tr><th>Bill Amount</th><th>Final Amount</th></tr>");
+      for (let i = 0; i < billAmounts.length; i++) {
+        document.write(
+          `<tr><td>${billAmounts[i]}</td><td>${finalBills[i]}</td></tr>`
+        );
+      }
+      document.write("</table>");
+    </script>
+  </head>
+  <body></body>
+</html>

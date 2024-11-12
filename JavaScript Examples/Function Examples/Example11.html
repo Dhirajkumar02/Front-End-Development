@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>var v/s let</title>
+		<script>
+			function test() {
+				var str = "sachin";
+				if (str === "sachin") {
+					var a = 10;
+					document.write(`Inside block a=${a}`);
+					document.write("<br>");
+				}
+				document.write(`Outside block a=${a}`);
+			}
+			test();
+			//document.write(`Outside function a=${a}`);
+			document.write(`<br>Outside function str=${window.str}`);
+		</script>
+	</head>
+
+	<body></body>
+</html>

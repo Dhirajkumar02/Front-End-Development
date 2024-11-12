@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>var v/s let (Scope)</title>
+		<script>
+			var a = 10;
+
+			function test() {
+				//document.write("Above if msg= " + msg + "<br>");
+				if (a > 5) {
+					var msg = "Good Morning!";
+				}
+				document.write("After msg= " + msg);
+			}
+			test();
+		</script>
+	</head>
+
+	<body></body>
+</html>
