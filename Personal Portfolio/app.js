@@ -4,9 +4,9 @@ var typed = new Typed(".text", {
       "Web Developer",
       "Front End Developer",
       "Software Developer",
-      "UI/UX Designer",
+      "Back End Developer",
       "Web Designer",
-      "Oracle SQL Developer",
+      "SQL Developer",
       "Content Creator",
       "Blogger"
     ],
@@ -18,12 +18,15 @@ var typed = new Typed(".text", {
 
 /* function designed for hamburger menu */
 
-function showSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
+document.getElementById('menu-icon').onclick = function() {
+  document.querySelector('.navbar').classList.toggle('active');
 }
-function hideSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
 
+// Show or hide the back-to-top button
+window.onscroll = function() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.querySelector('.top').style.display = "block";
+  } else {
+    document.querySelector('.top').style.display = "none";
+  }
 }
